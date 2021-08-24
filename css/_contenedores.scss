@@ -1,0 +1,39 @@
+.flex-container{
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	& h1{
+		text-align: center;
+		color: $lime;
+	}
+
+	&.flex-container{
+	background: $aqua;
+	}
+
+	&.main-header{
+		background: $amarillo;
+		border-radius: (60px);
+		& li{
+			list-style: none;
+		}
+	}
+
+	&.main-article{
+		background: brown;
+		height: 100vh;
+		& p{
+			padding: 1em;
+			font-size: 1em;
+			font-style: italic;
+		}
+	}
+}
+
+/* MIXINS */
+@mixin border-radius($radio){
+	border-radius: $radio;
+}

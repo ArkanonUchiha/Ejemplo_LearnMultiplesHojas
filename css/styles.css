@@ -1,0 +1,39 @@
+.flex-container {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+
+.flex-container h1 {
+  text-align: center;
+  color: #01FF70;
+}
+
+.flex-container.flex-container {
+  background: #000EA2;
+}
+
+.flex-container.main-header {
+  background: #FFFF00;
+  border-radius: 60px;
+}
+
+.flex-container.main-header li {
+  list-style: none;
+}
+
+.flex-container.main-article {
+  background: brown;
+  height: 100vh;
+}
+
+.flex-container.main-article p {
+  padding: 1em;
+  font-size: 1em;
+  font-style: italic;
+}
+
+/* MIXINS */
